@@ -1,24 +1,16 @@
-#
-# Be sure to run `pod spec lint NAME.podspec' to ensure this is a
-# valid spec and remove all comments before submitting the spec.
-#
-# To learn more about the attributes see http://docs.cocoapods.org/specification.html
-#
 Pod::Spec.new do |s|
   s.name         = "CXFunctor"
-  s.version      = "0.1.0"
-  s.summary      = "A short description of CXFunctor."
+  s.version      = "0.0.1"
+  s.summary      = "Functional operations for Objective-C objects: functors and foldables"
   s.description  = <<-DESC
-                    An optional longer description of CXFunctor
-
-                    * Markdown format.
-                    * Don't worry about the indent, we strip it!
+                      Functional operations for Objective-C objects inspired by Haskell
+                        * functors (`cx_map`)
+                        * foldables (`cx_fold*`)
                    DESC
-  s.homepage     = "http://EXAMPLE/NAME"
-  s.screenshots  = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
+  s.homepage     = "http://github.com/proger/CXFunctor"
   s.license      = 'MIT'
-  s.author       = { "Vladimir Kirillov" => "proger@wilab.org.ua" }
-  s.source       = { :git => "http://EXAMPLE/NAME.git", :tag => s.version.to_s }
+  s.author       = { "Vladimir Kirillov" => "vladimir.kirillov@universalmind.com" }
+  s.source       = { :git => "http://github.com/proger/CXFunctor.git", :tag => s.version.to_s }
 
   # s.platform     = :ios, '5.0'
   # s.ios.deployment_target = '5.0'
@@ -26,11 +18,11 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   s.source_files = 'Classes'
-  s.resources = 'Assets'
+  #s.resources = 'Assets'
 
-  s.ios.exclude_files = 'Classes/osx'
-  s.osx.exclude_files = 'Classes/ios'
-  # s.public_header_files = 'Classes/**/*.h'
-  # s.frameworks = 'SomeFramework', 'AnotherFramework'
-  # s.dependency 'JSONKit', '~> 1.4'
+  #s.ios.exclude_files = 'Classes/osx'
+  #s.osx.exclude_files = 'Classes/ios'
+  #s.public_header_files = 'Classes/**/*.h'
+  #s.frameworks = 'SomeFramework', 'AnotherFramework'
+  #s.dependency 'JSONKit', '~> 1.4'
 end
