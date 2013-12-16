@@ -7,10 +7,10 @@ Pod::Spec.new do |s|
                         * functors (`cx_map`)
                         * foldables (`cx_fold*`)
                    DESC
-  s.homepage     = "http://github.com/proger/CXFunctor"
+  s.homepage     = "https://github.com/proger/CXFunctor"
   s.license      = 'MIT'
   s.author       = { "Vladimir Kirillov" => "vladimir.kirillov@universalmind.com" }
-  s.source       = { :git => "http://github.com/proger/CXFunctor.git", :tag => s.version.to_s }
+  s.source       = { :git => "https://github.com/proger/CXFunctor.git", :tag => s.version.to_s }
 
   # s.platform     = :ios, '5.0'
   # s.ios.deployment_target = '5.0'
